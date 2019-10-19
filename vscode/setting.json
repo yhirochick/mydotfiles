@@ -1,0 +1,171 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.openDefaultKeybindings": true,
+    "editor.renderWhitespace": "selection",
+    "vim.useSystemClipboard": true,
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        }
+    ],
+    "workbench.colorTheme": "Andromeda",
+    "cSpell.userWords": [
+        "fastcgi",
+        "krazy",
+        "nakasone",
+        "nginx",
+        "phpmyadmin"
+    ],
+    "git.autofetch": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    // ウィンドウ設定
+    // "window.zoomLevel": -1, // 拡大率
+    "window.title": "${dirty}${activeEditorShort} / ${rootName}", // タイトルバーの文字
+    "window.closeWhenEmpty": false,
+
+    // エディター設定
+    // "editor.tabSize": 2,
+    // "editor.lineHeight": 28,
+    // "editor.detectIndentation":false,
+    // "editor.renderLineHighlight": "all", // 選択中の行を強調する
+    // "editor.fontFamily": "'Roboto Mono'", // フォント
+    "editor.glyphMargin": true, // 行の左端に余白を作る
+    // "editor.roundedSelection": true, // 選択範囲の角を丸める
+    // "editor.quickSuggestions": {
+    //     "comments": false, // コメント内では無効
+    //     "strings": true, // 文字列内では有効
+    //     "other": true //  その他の場所で有効
+    // }, // 補完候補の自動表示
+    // "editor.formatOnType": true, // コード整形
+    // "editor.formatOnPaste": true, // コード整形
+    // // "editor.rulers": [100], // 右端のルーラー位置
+    // "editor.folding": true, // コードの折りたたみを許可
+    // "editor.letterSpacing": -1, // 文字の間隔を詰める
+    // "editor.lineNumbers": "on", // 行番号の表示
+    // "editor.minimap.enabled": true, // ミニマップの表示
+    "editor.minimap.maxColumn": 40, // ミニマップの幅
+    // "editor.scrollBeyondLastLine": true, // 最終行よりも下へのスクロールを許可
+    // "editor.renderControlCharacters": true, // 制御文字の表示
+    // // "editor.renderWhitespace": "boundary", // 連続した空白文字を可視化
+    // "editor.insertSpaces": true, // Tabキーで半角スペースを入力
+    // "editor.fontSize": 20, //  文字サイズ
+    // "editor.renderIndentGuides": true, // インデントのガイドラインを表示
+    // "editor.minimap.renderCharacters": false, // ミニマップを簡略化
+    // "editor.minimap.showSlider": "always", // ミニマップのハイライトを常に表示
+    // "editor.minimap.side": "right", // ミニマップを右に表示
+    // "editor.autoIndent": false, // オートインデント
+    // "editor.cursorStyle": "line", // カーソルの形状
+    // "editor.cursorBlinking": "smooth", // カーソルの表示形式
+    // "editor.cursorWidth": 5, // カーソル幅
+    // "editor.emptySelectionClipboard": true, // 選択範囲無しでのコピーを許可
+    // "editor.links": true, // リンクをクリック可能に
+    // "editor.matchBrackets": true, // 対応する括弧の強調表示をオンに
+    // "editor.mouseWheelScrollSensitivity": 0.7, // マウスホイール回転の移動係数
+    // "editor.mouseWheelZoom": false, // Ctrl+マウスホイールによるズームを無効化
+    // "editor.suggestFontSize": 24, // サジェストの文字サイズ
+    // "editor.suggestLineHeight": 24, // サジェスト欄の行の高さ
+
+    // // ターミナル
+    // "terminal.integrated.fontFamily": "'Roboto Mono'", // フォント
+    // "terminal.integrated.fontSize": 22, // フォントサイズ
+
+    // // ファイル設定
+    // "files.autoSave": "off", //ダーティファイルの作成を無効
+    // "files.eol": "\n",  // 改行コードをLF(Linux/OSX)にする
+    // "files.insertFinalNewline": true, // ファイルの終端に空の行を追加
+    // "files.autoGuessEncoding": true, // 文字コードを自動判別
+    // // エクスプローラーから除外するファイルとフォルダ
+    // "files.exclude": {
+    //     "**/.git": true,
+    //     "**/.svn": true,
+    //     "**/.hg": true,
+    //     "**/CVS": true,
+    //     "**/.DS_Store": true,
+    //     "**/bin": true,
+    //     //"**/*.exe": true,
+    //     "**/*.o": true,
+    //     "**/*.obj": true,
+    //     "**/*.ilk": true,
+    //     "**/*.pdb": true,
+    //     "**/*.tlog": true,
+    //     "**/*.idb": true,
+    //     "**/*.dll": true
+    //     // "**.vs": true,
+    // },
+
+
+    // ワークベンチ設定
+    // "workbench.editor.showTabs": true, // タブを表示
+    // "workbench.activityBar.visible": false, // アクティビティバー(左端)を非表示に
+    // "workbench.editor.tabSizing": "shrink", // タブが多い場合,文字を非表示にしてもタブ表示を優先する
+    // "workbench.statusBar.visible": true, // ステータスバー(下端)を表示
+    // "workbench.sideBar.location": "left", // サイドバーを左に
+    // "workbench.colorTheme": "Breeze Dark Theme", // カラーテーマ
+    // "workbench.iconTheme": "eq-material-theme-icons", // アイコンの適用
+    "workbench.colorCustomizations": { // カラーテーマに上書きする個別の設定
+        // "statusBar.background": "#000000", // ステータスバー背景色
+        // "statusBar.noFolderBackground": "#000000",
+        // "statusBar.foreground": "#ffffff", // ステータスバー前景色
+        // "statusBar.noFolderForeground": "#ffffff",
+        // "statusBar.border": "#ffffff", // ステータスバーの境界線
+        // "sideBar.background": "#000000", // サイドバーの背景色
+        // "sideBar.foreground": "#ffffff", // サイドバーの前景色
+        // "sideBar.border": "#ffffff", // サイドバーの境界線
+        // "activityBar.background": "#000000", // アクティビティバーの背景色
+        // "activityBar.foreground": "#ffffff", // アクティビティバーの前景色
+        // // "activityBar.border": "#ffffff", // アクティビティバーの境界線
+        // "editor.background": "#121817", // エディタ背景色
+        "editor.lineHighlightBackground": "#393939", // 選択している行の強調色
+        "editor.selectionBackground": "#e97b7b", // 選択領域の強調色
+        // "editorError.border": "#ff0000", // エラー部分の下線
+        // "editorLineNumber.foreground": "#0077ffbb",
+        // "editorLineNumber.activeForeground": "#ffffff",
+        // "scrollbarSlider.background": "#0077ff99", // スクロールバーの色
+        // "scrollbarSlider.hoverBackground": "#00ccffcc", // 移動中のスクロールバーの色
+        // "tab.activeBorder": "#ffffff", // アクティブタブの下線
+        // "tab.inactiveForeground": "#999999", // 非選択タブの文字色
+        // "editorBracketMatch.background": "#ffff0077",// 対応する括弧の背景色
+        // "editorSuggestWidget.selectedBackground": "#0044ff", // サジェスト欄,選択中項目の背景色
+        // "scrollbar.shadow": "#0077ff99",
+        // "editorLink.activeForeground": "#5555ce",
+    },
+
+    // // 画面の透過設定
+    // "glassit.alpha": 255,
+    // "glassit.step": 1,
+
+    // // クラッシュレポートを送信する
+    // "telemetry.enableCrashReporter": true,
+    // "telemetry.enableTelemetry": true,
+
+    // // 拡張機能関連
+    // "extensions.autoUpdate": true, // 自動更新
+    // "extensions.ignoreRecommendations": false, // 推奨事項の通知をOFF
+
+
+}
+
